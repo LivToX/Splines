@@ -18,7 +18,7 @@ namespace Splines
             y = 0;
         }
 
-        public Punkt(int _x, int _y)
+        public Punkt(double _x, double _y)
         {
             x = _x;
             y = _y;

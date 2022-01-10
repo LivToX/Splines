@@ -5,8 +5,6 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Darstellung"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+        Title="Splines" Height="640" Width="840">
+    <Canvas  Background="LightBlue" Focusable="True" Margin="20" MouseDown="Canvas_MouseDown" />
 </Window>

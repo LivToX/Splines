@@ -23,6 +23,16 @@ namespace Darstellung
         public MainWindow()
         {
             InitializeComponent();
+            
+        }
+
+        private void Canvas_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            //Check if Click auf selber stelle wie anderer Punkt
+
+            //Füge punkt in Liste hinzu
+
+            //stelle Punkte da / mit Button Click Splines aktualisieren
         }
     }
 }

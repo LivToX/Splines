@@ -8,6 +8,7 @@ namespace Testing
     {
         static void Main(string[] args)
         {
+
             Punkt punkt1 = new Punkt(1, 3);
             Punkt punkt2 = new Punkt(2, 4);
             Punkt punkt3 = new Punkt(3, 1);
