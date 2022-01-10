@@ -9,11 +9,11 @@ namespace Splines
 {
     public static class PunkteRechner
     {
-        public static List<Punkt> BerechneZuZeichnendePunkte(Punkt[] punkte, Matrix koeffizienten)
+        public static List<Punkt> BerechneZuZeichnendePunkte(List<Punkt> punkte, Matrix koeffizienten)
         {
             List<Punkt> zuZeichnen = new List<Punkt>();
 
-            for (int i = 0; i < punkte.Length - 1; i++)    //gehe durch Anzahl von Splines
+            for (int i = 0; i < punkte.Count - 1; i++)    //gehe durch Anzahl von Splines
                 for (double d = punkte[i].x; d < punkte[i + 1].x; d += 0.01) //Gehe durch Stellen von i < i+1   => zwischen x=n und x=n+1 liegen 100 Pixel
                 {
                     double x = d - punkte[i].x; //  = (x - xi)
