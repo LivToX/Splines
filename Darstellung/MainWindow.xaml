@@ -5,27 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Darstellung"
         mc:Ignorable="d"
-        Title="Splines" Height="640" Width="840" ResizeMode="NoResize">
+        Title="Splines" Height="650" Width="825" ResizeMode="NoResize">
 
-    <Canvas Name ="MyCanvas"  Background="LightBlue" Focusable="True" Margin="20"  MouseDown="Canvas_MouseDown" >
-        <Label Content="0" Margin ="20" Canvas.Left="-20" Canvas.Top="570"/>
-        <Label Content="1" Canvas.Left="-20" Canvas.Top="484"/>
-        <Label Content="2" Canvas.Left="-20" Canvas.Top="384"/>
-        <Label Content="3" Canvas.Left="-20" Canvas.Top="284"/>
-        <Label Content="4" Canvas.Left="-20" Canvas.Top="184"/>
-        <Label Content="5" Canvas.Left="-20" Canvas.Top="84"/>
-        <Label Content="6" Canvas.Left="-20" Canvas.Top="-16"/>
-        
-        <Label Content="0" Canvas.Left="-6" Canvas.Top="590"/>
-        <Label Content="1" Canvas.Left="94" Canvas.Top="590"/>
-        <Label Content="2" Canvas.Left="194" Canvas.Top="590"/>
-        <Label Content="3" Canvas.Left="294" Canvas.Top="590"/>
-        <Label Content="4" Canvas.Left="394" Canvas.Top="590"/>
-        <Label Content="5" Canvas.Left="494" Canvas.Top="590"/>
-        <Label Content="6" Canvas.Left="594" Canvas.Top="590"/>
-        <Label Content="7" Canvas.Left="694" Canvas.Top="590"/>
-        <Label Content="8" Canvas.Left="794" Canvas.Top="590"/>
-
+    <Canvas Name ="MyCanvas"  Background="LightBlue" Focusable="True" Margin="5" Height="600" Width="800" VerticalAlignment="Top" HorizontalAlignment="Left"  MouseDown="Canvas_MouseDown" >
     </Canvas>
 
 </Window>

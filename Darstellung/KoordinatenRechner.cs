@@ -12,8 +12,6 @@ namespace Darstellung
         {
             double yMax = 600;
             return yMax - yAlt;
-        }
-
-        
+        }        
     }
 }

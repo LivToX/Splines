@@ -18,27 +18,9 @@ namespace Darstellung
 
             Punkt p = new Punkt(x, y);
 
+            punkte.Add(p);
 
-            if (punkte.Count > 1) // 2 oder mehr
-            {
-                for (int i = 0; i < punkte.Count; i++)
-                {
-                    if (p.x < punkte[i].x)
-                    {
-                        punkte.Insert(i, p);
-                        break;
-                    }
-                }
-            }
-            else if (punkte.Count > 0)
-            {
-                if (punkte[0].x < p.x)
-                    punkte.Add(p);
-                else
-                    punkte.Insert(0, p);
-            }
-            else
-                punkte.Add(p);
+            punkte = punkte.OrderBy(p => p.x).ToList();
         }
 
         public static List<Punkt> GetZuZeichendePunkte()

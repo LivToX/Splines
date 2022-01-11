@@ -7,9 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Splines", "Splines\Splines.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatrizenBibliothek", "..\MatrizenBibliothek\MatrizenBibliothek\MatrizenBibliothek.csproj", "{45A10021-D1F1-4A80-A962-75EF9572F803}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Testing", "Testing\Testing.csproj", "{439569A1-8891-49CD-8BFF-79E1AE58A68D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Darstellung", "Darstellung\Darstellung.csproj", "{69D04C55-910B-4373-AC70-871B05101AFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Darstellung", "Darstellung\Darstellung.csproj", "{69D04C55-910B-4373-AC70-871B05101AFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +23,6 @@ Global
 		{45A10021-D1F1-4A80-A962-75EF9572F803}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45A10021-D1F1-4A80-A962-75EF9572F803}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45A10021-D1F1-4A80-A962-75EF9572F803}.Release|Any CPU.Build.0 = Release|Any CPU
-		{439569A1-8891-49CD-8BFF-79E1AE58A68D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{439569A1-8891-49CD-8BFF-79E1AE58A68D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{439569A1-8891-49CD-8BFF-79E1AE58A68D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{439569A1-8891-49CD-8BFF-79E1AE58A68D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{69D04C55-910B-4373-AC70-871B05101AFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{69D04C55-910B-4373-AC70-871B05101AFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69D04C55-910B-4373-AC70-871B05101AFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
