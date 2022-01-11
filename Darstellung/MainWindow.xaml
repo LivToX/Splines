@@ -5,9 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Darstellung"
         mc:Ignorable="d"
-        Title="Splines" Height="650" Width="825" ResizeMode="NoResize">
+        Title="Splines" Height="715" Width="830" ResizeMode="NoResize">
 
+    <Grid> 
     <Canvas Name ="MyCanvas"  Background="LightBlue" Focusable="True" Margin="5" Height="600" Width="800" VerticalAlignment="Top" HorizontalAlignment="Left"  MouseDown="Canvas_MouseDown" >
+       
     </Canvas>
+        <Button Name ="clearListBtn" Content="Clear list of points"  Margin="5" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="800" Height="50" Click="clearListBtn_Click"/>
+    </Grid>
 
 </Window>

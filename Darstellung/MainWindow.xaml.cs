@@ -30,7 +30,7 @@ namespace Darstellung
         private void Canvas_MouseDown(object sender, MouseButtonEventArgs e)
         {
             //Check if Click auf selber stelle wie anderer Punkt
-            if (CheckIfStelleBelegt())
+            if (CheckIfBlocked())
                 return;
 
             MyCanvas.Children.Clear();
@@ -46,7 +46,14 @@ namespace Darstellung
             //Zeichne Kurve
             DrawFunction();
         }
-        private bool CheckIfStelleBelegt()
+        private void clearListBtn_Click(object sender, RoutedEventArgs e)
+        {
+            MyCanvas.Children.Clear();
+            Controller.punkte.Clear();
+            DrawAxes();
+        }
+
+        private bool CheckIfBlocked()
         {
             StelleBelegt stelleBelegt = new StelleBelegt();
             
@@ -164,5 +171,7 @@ namespace Darstellung
                 }
             }
         }
+
+  
     }
 }
