@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32002.261
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Splines", "Splines\Splines.csproj", "{D91011A3-EBF7-4CFA-99F3-7A2CFCBED957}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modell", "Splines\Modell.csproj", "{D91011A3-EBF7-4CFA-99F3-7A2CFCBED957}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatrizenBibliothek", "..\MatrizenBibliothek\MatrizenBibliothek\MatrizenBibliothek.csproj", "{45A10021-D1F1-4A80-A962-75EF9572F803}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Darstellung", "Darstellung\Darstellung.csproj", "{69D04C55-910B-4373-AC70-871B05101AFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "View", "Darstellung\View.csproj", "{69D04C55-910B-4373-AC70-871B05101AFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

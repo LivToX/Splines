@@ -30,7 +30,7 @@ namespace Darstellung
         private void Canvas_MouseDown(object sender, MouseButtonEventArgs e)
         {
             //Check if Click auf selber stelle wie anderer Punkt
-            if (CheckIfBlocked())
+            if (CheckIfStelleBelegt())
                 return;
 
             MyCanvas.Children.Clear();
@@ -41,7 +41,7 @@ namespace Darstellung
             Controller.AddPunkt(Mouse.GetPosition(MyCanvas).X, Mouse.GetPosition(MyCanvas).Y);
 
             //Punkte Darstellung
-            AddPoint();
+            DrawPoint();
 
             //Zeichne Kurve
             DrawFunction();
@@ -53,7 +53,7 @@ namespace Darstellung
             DrawAxes();
         }
 
-        private bool CheckIfBlocked()
+        private bool CheckIfStelleBelegt()
         {
             StelleBelegt stelleBelegt = new StelleBelegt();
             
@@ -137,7 +137,7 @@ namespace Darstellung
             }
         }
 
-        private void AddPoint()
+        private void DrawPoint()
         {
             Ellipse ellipse = new Ellipse()
             {
@@ -152,7 +152,7 @@ namespace Darstellung
 
         private void DrawFunction()
         {
-            if (Controller.punkte.Count > 3)
+            if (Controller.punkte.Count > 2)
             {
                 List<Punkt> zuZeichnen = Controller.GetZuZeichendePunkte();
                 for (int i = 0; i < zuZeichnen.Count - 1; i++)

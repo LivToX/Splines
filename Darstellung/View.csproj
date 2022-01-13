@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Splines\Splines.csproj" />
+    <ProjectReference Include="..\Splines\Modell.csproj" />
   </ItemGroup>
 
 </Project>
